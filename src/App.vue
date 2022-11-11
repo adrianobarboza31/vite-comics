@@ -2,6 +2,7 @@
    <HeaderComponent />
    <main>
     <section1 />
+    <sectionSeries/>
     <section2 />
     <section3 />
    </main>
@@ -14,6 +15,7 @@ import FooterComponent from './components/FooterComponent.vue';
 import section1 from './components/section1.vue';
 import section2 from './components/section2.vue';
 import section3 from './components/section3.vue';
+import sectionSeries from './components/sectionSeries.vue';
     export default {
         components:{
             HeaderComponent,
@@ -21,6 +23,7 @@ import section3 from './components/section3.vue';
             section1,
             section2,
             section3,
+            sectionSeries,
         }
     }
 </script>

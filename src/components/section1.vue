@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="container">
-        <h2> {{message}} </h2>
+       
     </div>
     </section>
     
@@ -20,9 +20,10 @@
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
 section{
-   background: $grigioscuro;
+   background-image: url("../assets/img/jumbotron.jpg");
    color: white;
-   height: 130px;
+   height: 400px;
+   background-size: cover;
 }
 div.container{
     display: flex;
